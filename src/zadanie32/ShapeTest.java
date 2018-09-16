@@ -8,9 +8,9 @@ public class ShapeTest {
         Circle circle1 = new Circle(5.7);
         ShapeCalculator sh = new ShapeCalculator();
 
-        System.out.println("Pole kwadratu: "+sh.squareArea(square1)+" cm2");
-        System.out.println("Pole prostokąta: "+sh.rectangleArea(rectangle1)+" cm2");
-        System.out.println("Pole trójkąta: "+sh.triangleArea(triangle1)+" cm2");
-        System.out.println("Pole koła: "+sh.circleArea(circle1)+" cm2");
+        System.out.println("Pole kwadratu: "+square1.calculateArea()+" cm2");
+        System.out.println("Pole prostokąta: "+rectangle1.calculateArea()+" cm2");
+        System.out.println("Pole trójkąta: "+triangle1.calculateArea()+" cm2");
+        System.out.printf("Pole koła: %.2f cm2",circle1.calculateArea());
     }
 }

@@ -7,4 +7,8 @@ public class Square {
     public Square(double a) {
         this.a = a;
     }
+    public double calculateArea(){
+
+        return a*a;
+    }
 }

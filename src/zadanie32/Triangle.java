@@ -8,4 +8,8 @@ public class Triangle {
         this.base = base;
         this.height = height;
     }
+
+    public double calculateArea() {
+        return (base * height) / 2;
+    }
 }
