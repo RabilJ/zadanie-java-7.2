@@ -1,3 +1,5 @@
+package zadanie31;
+
 public class Televisor {
     String status = "OFF";
 
