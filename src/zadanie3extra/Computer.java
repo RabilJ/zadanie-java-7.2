@@ -10,4 +10,11 @@ public class Computer {
         this.memory = memory;
         this.procesor = procesor;
     }
+
+    @Override
+    public String toString() {
+        return "Nazwa komputera: " + name + "\n" + "Nazwa procesora: " + procesor.producer + "\n" + "Taktowanie procesora: "
+                + procesor.timing + "GHz" + "\n" + "Nazwa pamięci: " + memory.producer + "\n" + "Ilość pamięci: " + memory.memoryAmount + "GB" +
+                "\n" + "Taktowanie pamięci: " + memory.timing + "GHz";
+    }
 }
