@@ -1,22 +1,22 @@
 package zadanie42;
 
 public class Point {
-private int start;
-private int end;
+private double x;
+private double y;
 
-    public int getStart() {
-        return start;
+    public double getX() {
+        return x;
     }
 
-    public void setStart(int start) {
-        this.start = start;
+    public void setX(double x) {
+        this.x = x;
     }
 
-    public int getEnd() {
-        return end;
+    public double getY() {
+        return y;
     }
 
-    public void setEnd(int end) {
-        this.end = end;
+    public void setY(double y) {
+        this.y = y;
     }
 }
