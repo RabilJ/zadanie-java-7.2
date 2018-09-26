@@ -18,8 +18,13 @@ public class Task4 {
             System.out.println("Punkt znajduje się w II ćwiartce");
         } else if (x < 0 && y < 0) {
             System.out.println("Punkt znajduje się w III ćwiartce");
-        } else
+        }else if(x==0&&y!=0){
+            System.out.println("Punkt znajduje się na osi Y");
+        }else if(x!=0&&y==0){
+            System.out.println("Punkt znajduje się na osi X");
+        }else{
             System.out.println("Punkt znajduje się w środku układu współrzędnych");
+        }
         sc.close();
 
     }
