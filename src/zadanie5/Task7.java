@@ -10,7 +10,7 @@ public class Task7 {
             System.out.println("Podaj imię");
             names[i] = sc.nextLine();
         }
-        for(int i=4;i>=0;i--){
+        for(int i=names.length-1;i>=0;i--){
             System.out.println("Cześć "+names[i]);
 
         }
