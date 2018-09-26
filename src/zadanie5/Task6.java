@@ -8,7 +8,7 @@ public class Task6 {
         Task6Method tm = new Task6Method();
         System.out.println("Wprowadź liczbę w przedziale 100-200 oraz podzielną przez 3: ");
         int number = sc.nextInt();
-        while(tm.checkNumber(number)!=true){
+        while(tm.checkNumber(number)){
             System.out.println("Spróbuj ponownie");
             number = sc.nextInt();
         }
