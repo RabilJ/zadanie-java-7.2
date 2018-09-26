@@ -5,13 +5,9 @@ public class Task5 {
         int number =0;
         int sum = 0;
         while(number<=100){
-            if(number%2!=0){
-                number++;
-                continue;
-            }
             System.out.println(number);
             sum = sum+number;
-            number++;
+            number=number+2;
 
 
         }
